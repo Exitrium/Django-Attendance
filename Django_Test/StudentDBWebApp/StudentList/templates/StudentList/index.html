@@ -1,0 +1,6 @@
+<ul>
+    {% for student in all_studs %}
+        <!-- this is for hyperlinks, pwede mo paltan yung href para magpunta sa ibang html file-->
+        <li><a href="/studentlist/{{student.id}}/">{{student.name}}</a></li>
+    {% endfor %}
+</ul>
